@@ -1,0 +1,14 @@
+# This file contains simulation parameters
+SIMULATION
+1      # pareto      /* Self-similar traffic               */
+4     # AllowedDL  /* Number of allowed delay lines this number must be lower than MaxDL */
+1      # ADDNDL     /* Increment in delay lines */
+2000  #Initial_Time
+4000 #Optimization_Time
+4000 #Operation_Time
+0.4   # Umbral para generar nuevas fibras
+0.8    # Load
+4      # Number of wavelengths
+1      # Number of predefined delay lines
+5      # NumDLs // Number of delay lines for the second dim
+30     #hopMax            /* Time to live          */
